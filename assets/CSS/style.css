@@ -1,0 +1,71 @@
+/* Mi hoja de style.css */
+
+/* Estilo para el encabezado */
+.header {
+    height: 30em;
+    background-image: url("../imgs/wp3333209.jpg");
+    background-size: cover;
+    background-position: 20% 70%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Estilo específico para h1 dentro de .header */
+.header h1 {
+    margin: 0;
+    font-size: 5em; /* Ajusta el tamaño del título, de lo que contiene */
+    position: absolute;
+    color: white;
+    top: 50%; /* Movimiento del titulo en eje x,y, ojo centrado en el lado izquierdo*/
+    left: 25%; /* Movimiento del titulo en eje x,y, ojo centrado en el lado izquierdo*/
+    transform: translate(-50%, -50%); /* Movimiento del titulo en eje x,y */
+    font-weight: 400;
+}
+
+.header h2 {
+    margin: 0; /* cual margin manda?? */
+    font-size: 3em; /* Ajusta el tamaño del título, de lo que contiene */
+    position: absolute;
+    color: white;
+    top: 65%; /* Movimiento del titulo en eje x,y, ojo centrado en el lado izquierdo*/
+    left: 30%; /* Movimiento del titulo en eje x,y, ojo centrado en el lado izquierdo*/
+    transform: translate(-50%, -50%); /* Movimiento del titulo en eje x,y */
+    font-weight: 200;
+
+}
+
+/* Estilos para la sección de productos */
+.products {
+    width: 80%;
+    margin: auto;
+    
+}
+
+/* Aumentar el tamaño de las letras en la sección de productos */
+.products p { /* OJO -> Dentro de la tabla productos, todo los parrafos tipo "p" */
+    font-size: 3em; /* Ajusta el tamaño de las letras según tus preferencias */
+    margin: 0; /* Elimina el margen predeterminado para los párrafos */
+}
+
+.products td {
+    width: 40%;
+    padding: 4em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(77, 79, 184);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
